@@ -19,5 +19,5 @@ require 'vendor/autoload.php';
     $testController->show();
 
     
-echo 'hello111';
+echo '我的第一个PHP项目';
 ?>
