@@ -1,10 +1,10 @@
 <?php
     class testController{
         function show(){
-            $testModal = new testModel();
+            $testModal = M('test');
             $data = $testModal->get();
 
-            $testView = new testView();
+            $testView = V('test');
             $testView->display($data);
         }
     }
